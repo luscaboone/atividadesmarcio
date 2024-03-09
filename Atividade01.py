@@ -34,21 +34,23 @@ divisao = primeironumero / segundonumero
 quociente = primeironumero // segundonumero
 resto = primeironumero % segundonumero
 expoente = primeironumero ** segundonumero
-opcao = 0
-while opcao == 0:
-    opcao = int(input("Escolha uma opção: \n1 - Soma\n2 - Subtração\n3 - Multiplicação\n4 - Divisão\n5 - Quociente\n6 - Resto\n7 - Expoente\nResposta: "))
+while True:
+    opcao = int(input("Escolha uma opção: \n1 - Soma\n2 - Subtração\n3 - Multiplicação\n4 - Divisão\n5 - Quociente\n6 - Resto\n7 - Expoente\n0 - Cancelar\nResposta: "))
     if opcao == 1:
         print(f"Resultado= {primeironumero}+{segundonumero}={soma2}")
-    if opcao == 2:
+    elif opcao == 2:
         print(f"Resultado= {primeironumero}-{segundonumero}={diferenca}")
-    if opcao == 3:
+    elif opcao == 3:
         print(f"Resultado= {primeironumero}*{segundonumero}={multiplicacao}")
-    if opcao == 4:
+    elif opcao == 4:
         print(f"Resultado= {primeironumero}/{segundonumero}={divisao}")
-    if opcao == 5:
+    elif opcao == 5:
         print(f"Resultado= {primeironumero}//{segundonumero}={quociente}")
-    if opcao == 6:
+    elif opcao == 6:
         print(f"Resultado= {primeironumero}%{segundonumero}={resto}")
-    if opcao == 7:
-        print(f"Resultado= {primeironumero} Elevado a {segundonumero}={expoente}")
-print("Fim!")
+    elif opcao == 7:
+        print(f"Resultado= {primeironumero}**{segundonumero}={expoente}")
+    elif opcao == 0:
+        break
+    else:
+        print("Resposta invalida.")
