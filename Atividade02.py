@@ -1,4 +1,4 @@
-'''### defina se o valor recebido pelo usuario é positivo, negativo ou nulo!
+### defina se o valor recebido pelo usuario é positivo, negativo ou nulo!
 print("Vamos saber se o numero digitado é positivo, negativo ou nulo.")
 numero = int(input("Digite um número: "))
 if numero >0:
@@ -57,4 +57,4 @@ c = a
 a = b
 b = c
 # é criada uma nova variável(c) para abrigar o valor de outra variavel para fazer um ciclo e inverter os resultados. 
-print(f"Após inverter, o valor de A={a} e o valor de B={b}")'''
+print(f"Após inverter, o valor de A={a} e o valor de B={b}")
