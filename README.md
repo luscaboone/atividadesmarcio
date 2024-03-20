@@ -1,3 +1,3 @@
 <div align="center">
-  <img src="https://t4.ftcdn.net/jpg/04/03/15/39/240_F_403153989_K6GwszyZXKOgXc0P9KpZwOZqSXTvl6aw.jpg"  />
+  <img src="https://t3.ftcdn.net/jpg/06/97/41/52/240_F_697415273_zTxQmZCbacPVg2mhYT6HoBShS25q9Pb5.jpg"  />
 </div>
